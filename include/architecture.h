@@ -19,11 +19,12 @@
    Each cpu can have 65355 machines (16 bit) */
 
 #define ARM_PLATFORM   1
-   #define ARM_SA110_CPU   1
-   #define ARM_SA1100_CPU  2
-   #define ARM_SA1110_CPU  3
-   #define ARM_SA1111_CPU  4
-   #define ARM_S3C2400_CPU 5
-   #define ARM_S3C2410_CPU 6
-   #define ARM_S3C2440_CPU 7
+#define ARM_SA110_CPU   1
+#define ARM_SA1100_CPU  2
+#define ARM_SA1110_CPU  3
+#define ARM_SA1111_CPU  4
+#define ARM_S3C2400_CPU 5
+#define ARM_S3C2410_CPU 6
+#define ARM_S3C2440_CPU 7
 #define ARM_PXA250_CPU	6
+

@@ -102,3 +102,4 @@ struct mtd_info *amd_flash_probe(struct map_info *map);
 
 
 #endif /* _VIVI_AMDFLASH_H_ */
+

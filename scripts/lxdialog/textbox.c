@@ -554,3 +554,4 @@ print_position (WINDOW * win, int height, int width)
     wmove (win, height - 3, width - 9);
     wprintw (win, "(%3d%%)", percent);
 }
+

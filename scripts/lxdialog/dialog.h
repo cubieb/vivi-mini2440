@@ -182,3 +182,4 @@ int dialog_inputbox (const char *title, const char *prompt, int height,
  */
 #define FLAG_CHECK 1
 #define FLAG_RADIO 0
+

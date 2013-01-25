@@ -610,3 +610,4 @@ phy_write(int reg, u16 value)
 	DM9000_DBG("phy_write(reg:%d, value:%d)\n", reg, value);
 }
 #endif				/* CONFIG_DRIVER_DM9000 */
+
