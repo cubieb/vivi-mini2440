@@ -1171,3 +1171,4 @@ user_command_t amd_cmd = {
 	"amd [{cmds}]\t\t\t-- Manage AMD flash memory"
 };
 #endif /* CONFIG_CMD_AMD_FLASH */
+
