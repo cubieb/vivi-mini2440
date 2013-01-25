@@ -15,10 +15,10 @@ if [ "$CONFIG_NET" = "y" ]; then
 
   comment 'Networking Options'
   string 'MAC address' CONFIG_MAC_ADDR "00:00:C0:FF:EE:08"
-  string 'Host IP address' CONFIG_HOST_IP "192.168.0.10"
-  string 'Gateway IP Address' CONFIG_GATEWAY_IP "192.168.0.1"
+  string 'Host IP address' CONFIG_HOST_IP "10.7.1.108"
+  string 'Gateway IP Address' CONFIG_GATEWAY_IP "10.7.1.254"
   string 'Network Mask' CONFIG_NET_MASK "255.255.255.0"
-  string 'TFTP Server IP Address' CONFIG_TFTP_SERVER "192.168.0.11"
+  string 'TFTP Server IP Address' CONFIG_TFTP_SERVER "10.7.1.156"
 # string 'Default Load RAM Address' CONFIG_DEFAULT_LOAD_ADDR  "0x31000000"
 
 fi
