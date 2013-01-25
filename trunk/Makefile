@@ -23,7 +23,7 @@ LINUX_INCLUDE_DIR	= /usr/local/arm/2.95.3/include
 
 
 VIVIPATH           = $(TOPDIR)/include
-
+OUTPUTNAME         = vivi-mini2440
 HOSTCC          = gcc
 HOSTCFLAGS      = -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer
 
@@ -129,7 +129,7 @@ vivi: include/version.h $(CONFIGURATION) init/main.o init/version.o linuxsubdirs
 		$(LIBS) \
 		-o vivi-elf $(CLIBS)
 	$(NM) -v -l vivi-elf > vivi.map
-	$(OBJCOPY) -O binary -S vivi-elf vivi $(OBJCOPYFLAGS)
+	$(OBJCOPY) -O binary -S vivi-elf $(OUTPUTNAME) $(OBJCOPYFLAGS)
 
 oldconfig:
 	$(CONFIG_SHELL) scripts/Configure -d arch/config.in
