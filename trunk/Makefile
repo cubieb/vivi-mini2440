@@ -144,7 +144,7 @@ menuconfig: include/version.h
 clean:
 	find . \( -name '*.o' -o -name core -o -name ".*.flags" \) -type f -print \
 	| grep -v lxdialog/ | xargs rm -f
-	rm -f $(CLEAN_FILES)
+	rm -f $(CLEAN_FILES) $(OUTPUTNAME)
 
 distclean: clean
 	rm -f $(DISTCLEAN_FILES)
